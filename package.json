@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "heroku": "concurrent \"npm run tsc:w\" \"npm run lite\" "
   },
   "engine": {
     "node": "7.9.0",
